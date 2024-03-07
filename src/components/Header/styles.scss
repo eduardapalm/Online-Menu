@@ -1,0 +1,13 @@
+header {
+   display: flex;
+   width: 100dvw;
+   height: 4.3125rem;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #fff;
+
+   .headerIcons {
+      font-size: 1.8rem;
+      padding: 1rem;
+   }
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap');
+
+.bannerHolder {
+   background-color: #1F1F1F;
+   width: 100dvw;
+   height: 25dvh;
+   overflow: hidden;
+   display: flex;
+   justify-content: flex-start;
+
+   .imageBg {
+      background-color: #DC2626;
+      width: 70dvw;
+      height: 35dvh;
+      border-radius: 52%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      position: relative;
+      left: -20dvw;
+      bottom: 4dvh;
+
+      img {
+         padding-left: 20dvw;
+         width: 50dvw;
+         height: 22dvh;
+      }
+   }
+
+   .textBg {
+      color: white;
+      font-family: 'Faustina' , serif;
+
+      h1 {
+         font-size: 2.5625rem;
+         font-weight: 900;
+         stroke: 2px #eb0000;
+      }
+   }
+}
