@@ -1,13 +1,13 @@
 .AppHolder {
    width: 100dvw;
-   height: 100dvh;
+   height: 100svh;
    display: flex;
    flex-direction: column;
    justify-content: start;
    align-items: center;
    background-color: #F5F5F5;
 
-   header{
+   header {
       display: flex;
    }
 }
